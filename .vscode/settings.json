@@ -16,5 +16,6 @@
     "idf.flashType": "UART",
     "files.associations": {
         "task.h": "c"
-    }
+    },
+    "cmake.configureOnOpen": false
 }

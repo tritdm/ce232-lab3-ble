@@ -43,7 +43,7 @@ static uint8_t raw_adv_data[] = {
         /* device name */ 
         0x0B, 0x09, 'R', 'E', 'S', 'T', 'A', 'U', 'R', 'A', 'N', 'T',
         /* service data*/ 
-        0x0F, 0x16, 0xFF, 0x00, 'D', 'I', 'S', 'C', 'O', 'U', 'N', 'T', ' ', '5', '0', '%' 
+        0x0F, 0xFF, 0x01, 0x00, 'D', 'I', 'S', 'C', 'O', 'U', 'N', 'T', ' ', '5', '0', '%' 
 }; 
 
 static uint8_t raw_scan_rsp_data[] = {

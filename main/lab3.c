@@ -40,12 +40,10 @@
 static uint8_t raw_adv_data[] = { 
         /* flags */ 
         0x02, 0x01, 0x06, 
-        /* service uuid */ 
-        0x03, 0x03, 0xFF, 0x00, 
         /* device name */ 
-        0x08, 0x09, 'N', 'H', 'A', 'H', 'A', 'N', 'G', 
+        0x0B, 0x09, 'R', 'E', 'S', 'T', 'A', 'U', 'R', 'A', 'N', 'T',
         /* service data*/ 
-        0x0C, 0xFF, 'D', 'I', 'S', 'C', 'O', 'U', 'N', 'T', ' ', '5', '%' 
+        0x0F, 0x16, 0xFF, 0x00, 'D', 'I', 'S', 'C', 'O', 'U', 'N', 'T', ' ', '5', '0', '%' 
 }; 
 
 static uint8_t raw_scan_rsp_data[] = {
